@@ -1,0 +1,4 @@
+.item { width: 100px; height: 100px; padding: 0.5em; float: right; margin: 10px 10px 10px 0; border: solid }
+.bin { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; border:dotted }
+.over {background-color: red}
+.drag{background-color: aqua}

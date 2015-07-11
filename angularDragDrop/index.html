@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Drag & Drop</title>
+    <script src = "angular.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src = "dragDropApp.js" type="text/javascript"></script>
+    <script src = "dragDropController.js" type="text/javascript"></script>
+    <script src = "draggableDirective.js" type="text/javascript"></script>
+    <script src = "droppableDirective.js" type="text/javascript"></script>
+</head>
+<body>
+    <div ng-app="dragdrop" ng-controller="dragdropController">
+        <div class="bin" droppable drop="handleDrop()">Drop</div>
+        <div class="item" id="item1" draggable>Drag</div>
+
+    </div>
+</body>
+</html>
